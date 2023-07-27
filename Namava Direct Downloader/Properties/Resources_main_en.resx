@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivationFailed" xml:space="preserve">
+    <value>Activation Failed!</value>
+  </data>
+  <data name="CantCreateFolder" xml:space="preserve">
+    <value>Can't Create Folder!</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Connection Error!</value>
+  </data>
+  <data name="desAdvanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="desAdvFormatInfo" xml:space="preserve">
+    <value>$N replaces the video name, $Q replaces the video quality, $S the season number, and $E the episode number. You can write this in any format.</value>
+  </data>
+  <data name="desAdvFormatReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="desAdvPreviewT" xml:space="preserve">
+    <value>Preview: </value>
+  </data>
+  <data name="desAdvSaveFormat" xml:space="preserve">
+    <value>Save Format: </value>
+  </data>
+  <data name="desAdvTitle" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="desAllwaysMixFiles" xml:space="preserve">
+    <value>Allways Mix Files</value>
+  </data>
+  <data name="desAutoUpdate" xml:space="preserve">
+    <value>Automatically update the app</value>
+  </data>
+  <data name="desChangeNumbers" xml:space="preserve">
+    <value>Change Numbers to English</value>
+  </data>
+  <data name="desChangeSaveFromat" xml:space="preserve">
+    <value>ChangeSaveFromat</value>
+  </data>
+  <data name="desChangeSavePath" xml:space="preserve">
+    <value>Change Save Path</value>
+  </data>
+  <data name="desCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="desCreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="desDelAudios" xml:space="preserve">
+    <value>Audios</value>
+  </data>
+  <data name="desDeleteAfterMix" xml:space="preserve">
+    <value>Delete After Mix</value>
+  </data>
+  <data name="desDeleteVideoFolder" xml:space="preserve">
+    <value>Delete Video Folder</value>
+  </data>
+  <data name="desDelSubtitles" xml:space="preserve">
+    <value>Subtitles</value>
+  </data>
+  <data name="desDelVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="desDownload" xml:space="preserve">
+    <value>Download!</value>
+  </data>
+  <data name="desDownloadAudios" xml:space="preserve">
+    <value>Download Audios</value>
+  </data>
+  <data name="desDownloadSubtitles" xml:space="preserve">
+    <value>Download Subtitles</value>
+  </data>
+  <data name="desDownloadVideo" xml:space="preserve">
+    <value>Download Video</value>
+  </data>
+  <data name="desExpirationDate" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="desFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="desHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="desLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="desLicense" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="desLicenseInfo" xml:space="preserve">
+    <value>License Information</value>
+  </data>
+  <data name="desOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="desPause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="desRemoveIntro" xml:space="preserve">
+    <value>Remove Namava Intro</value>
+  </data>
+  <data name="desResetLicense" xml:space="preserve">
+    <value>Reset License</value>
+  </data>
+  <data name="desTotalDays" xml:space="preserve">
+    <value>Total Days</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done!</value>
+  </data>
+  <data name="DownloadCompleted" xml:space="preserve">
+    <value>Download Completed!</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Download Error!</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File Not Found!</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Folder Not Found!</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="MixingFiles" xml:space="preserve">
+    <value>Mixing Files into one mp4 file...</value>
+  </data>
+  <data name="msgActivationFailed" xml:space="preserve">
+    <value>Sorry, activating the application failed.
+{0}
+
+Do you want to try again?</value>
+  </data>
+  <data name="msgCanceledUpdate" xml:space="preserve">
+    <value>Installing the new version was canceled by user!</value>
+  </data>
+  <data name="msgCantCreateFolder" xml:space="preserve">
+    <value>The folder you selected could not be created. Please select a correct folder.</value>
+  </data>
+  <data name="msgConnectionError" xml:space="preserve">
+    <value>Sorry, there was a connection error when sending the request to Namava. please try again later.</value>
+  </data>
+  <data name="msgDownloadCompleted" xml:space="preserve">
+    <value>Download Completed! files saved on
+{0}</value>
+  </data>
+  <data name="msgDownloadError" xml:space="preserve">
+    <value>Sorry, there was an error while downloading the file from namava. Please try again!</value>
+  </data>
+  <data name="msgErrorReported" xml:space="preserve">
+    <value>Sorry, there was an unhandled error!
+Error successfully reported for help.</value>
+  </data>
+  <data name="msgFailedUpdate" xml:space="preserve">
+    <value>Installing the new version encountered an error! Please run this app as an administrator and try again.</value>
+  </data>
+  <data name="msgFileNotFound" xml:space="preserve">
+    <value>Sorry, {0} not found, please try again later or skip downloading the file.</value>
+  </data>
+  <data name="msgFolderNotFound" xml:space="preserve">
+    <value>The folder you selected as save patch was not found. Do you want to create it?</value>
+  </data>
+  <data name="msgMixNeeded" xml:space="preserve">
+    <value>Download Completed! files saved on
+{0}
+
+Do you want to mix files into one mp4 file and close the app?</value>
+  </data>
+  <data name="msgNothingSelected" xml:space="preserve">
+    <value>Nothing is going to be downloaded. Please Select something to download!</value>
+  </data>
+  <data name="msgPermissionError" xml:space="preserve">
+    <value>Sorry, This app does not have the required permissions, please run it as an administrator.</value>
+  </data>
+  <data name="msgPleaseReport" xml:space="preserve">
+    <value>please report this error to aam.products.mail@gmail.com for help.</value>
+  </data>
+  <data name="msgResetLicense" xml:space="preserve">
+    <value>Are you sure you want to reset this license? (This will open the license for all computers, if you don't heve a copy of license code, YOU WILL LOSE YOUR LICENSE)</value>
+  </data>
+  <data name="msgServerError" xml:space="preserve">
+    <value>Sorry, there is an error while requesting license info from the server! Please try again!</value>
+  </data>
+  <data name="msgStillDownloading" xml:space="preserve">
+    <value>This program is downloading several files, do you want to cancel the downloads and close the program?</value>
+  </data>
+  <data name="msgSuccessfulUpdate" xml:space="preserve">
+    <value>New version installed successfully, Please close and reopen this app to apply the update.</value>
+  </data>
+  <data name="msgUnhandledError" xml:space="preserve">
+    <value>Sorry, Namava Direct Downloader detected an unhandled error!</value>
+  </data>
+  <data name="msgUpdateAvailable" xml:space="preserve">
+    <value>Do you want to install update now?</value>
+  </data>
+  <data name="msgWrongFolder" xml:space="preserve">
+    <value>The folder you selected as save path is wrong. Please select a correct folder!</value>
+  </data>
+  <data name="NothingSelected" xml:space="preserve">
+    <value>Nothing Selected!</value>
+  </data>
+  <data name="PermissionError" xml:space="preserve">
+    <value>Permission Error!</value>
+  </data>
+  <data name="ReadyForDownload" xml:space="preserve">
+    <value>Ready for download...</value>
+  </data>
+  <data name="ResetLicense" xml:space="preserve">
+    <value>Reset License!</value>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Server Error!</value>
+  </data>
+  <data name="StartingDownalod" xml:space="preserve">
+    <value>Starting Download...</value>
+  </data>
+  <data name="StillDownloading" xml:space="preserve">
+    <value>Still Downloading!</value>
+  </data>
+  <data name="strInstallingUpdate" xml:space="preserve">
+    <value>Installing Update...</value>
+  </data>
+  <data name="strUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="SuccessfulUpdate" xml:space="preserve">
+    <value>Successful Update!</value>
+  </data>
+  <data name="UnhandledError" xml:space="preserve">
+    <value>Unhandled Error!</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Update Available!</value>
+  </data>
+  <data name="UpdateError" xml:space="preserve">
+    <value>Update Error!</value>
+  </data>
+  <data name="WrongFolder" xml:space="preserve">
+    <value>Wrong Folder!</value>
+  </data>
+</root>

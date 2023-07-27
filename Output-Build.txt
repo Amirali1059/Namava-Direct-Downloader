@@ -1,0 +1,4 @@
+﻿Rebuild started...
+1>------ Rebuild All started: Project: Namava Direct Downloader, Configuration: Release Any CPU ------
+1>  Namava Direct Downloader -> C:\Users\AAM\source\repos\Namava Direct Downloader V2\Namava Direct Downloader\bin\Release\Namava Direct Downloader.exe
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
